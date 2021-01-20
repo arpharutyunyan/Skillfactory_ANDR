@@ -5,7 +5,7 @@ public class StringBuilder_4_3_1 {
             sb.append("ABC");
         }
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 200000; i++) {
+        for (int i = 0; i < 1000000; i++) {
 
             sb.delete(0, 1);
         }
