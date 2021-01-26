@@ -3,7 +3,7 @@ package JavaCore.Module_4_5;
 public class StringBuilder_4_3_1 {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 200000; i++) {
             sb.append("ABC");
         }
         long startTime = System.currentTimeMillis();
