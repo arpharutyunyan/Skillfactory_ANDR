@@ -1,8 +1,8 @@
 package Module_6;
 
 public class Monster {
-    String name;
-    int damage;
+    private String name;
+    private int damage;
 
     public Monster(String name, int damage) {
         this.name = name;
